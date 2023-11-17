@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Abril+Fatface&family=Inter:wght@100;200;300;400;500;600&family=Open+Sans:wght@300;400&family=Righteous&family=Roboto+Mono&family=Sarala&family=Work+Sans:ital,wght@0,400;0,500;1,800&display=swap');
+
+
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Open Sans', sans-serif;
+}
+
+body{
+    height: 100vh;/*cobrir a altura inteira*/
+    background: linear-gradient(120deg, #4143ac, #ad449b);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.relogio{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-radius: 3px;
+    width: 550px;
+    height: 200px;
+    box-shadow: 0 0 10px rgba(0,0,0,0.5);
+    
+}
+
+.relogio div{
+    height: 170px;
+    width: 150px;
+    background: rgba(5, 5, 5, 0.9);
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 5px 5px 15px rgba(0,0,0,0.6);
+    border: 7px;
+
+}
+
+.relogio span{
+    font-size: 50px;
+    font-weight: 500;
+}
+
+
+.relogio span.tempo{
+    font-size: 15px;
+    font-weight: 300;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
